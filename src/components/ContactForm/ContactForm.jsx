@@ -52,7 +52,7 @@ export default function ContactForm({ onAddContact, contacts }) {
         type="text"
         value={name}
         onChange={handleNameChange}
-        // Gestioneaza apasarea tastei "Enter" pentru adaugarea
+        // Gestioneaza apasarea tastei "Enter" pentru adaugare
         onKeyDown={handleKeyDown}
         required
       />
@@ -62,7 +62,7 @@ export default function ContactForm({ onAddContact, contacts }) {
         type="tel"
         value={number}
         onChange={handleNumberChange}
-        // Gestioneaza apasarea tastei "Enter" pentru adaugarea
+        // Gestioneaza apasarea tastei "Enter" pentru adaugare
         onKeyDown={handleKeyDown}
         required
       />
